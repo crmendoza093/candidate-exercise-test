@@ -1,0 +1,13 @@
+source 'https://rubygems.org'
+
+gem 'rspec', '~> 3.12'
+gem 'httparty', '~> 0.21'
+gem 'json', '~> 2.6'
+gem 'webmock', '~> 3.18'
+gem 'faker', '~> 3.2'
+gem 'dotenv', '~> 2.8'
+
+group :development, :test do
+  gem 'rspec-rails', '~> 6.0'
+  gem 'dotenv', '~> 2.8'
+end

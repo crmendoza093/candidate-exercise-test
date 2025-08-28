@@ -1,0 +1,5 @@
+.DS_Store
+.rspec
+examples.txt
+.bundle
+.byebug_history
